@@ -17,10 +17,9 @@ Using the week days example:
 
 ```javascript
 // import the lib
-const p2s = require('power2save')
+import Power from '@theregge/power2save'
 
-// set the data
-p2s.set([
+const weekdays = [
   'Monday',
   'Tuesday',
   'Wednesday',
@@ -28,13 +27,16 @@ p2s.set([
   'Friday',
   'Saturday',
   'Sunday',
-])
+]
+
+// Initialize a class instance with the data
+const p = new Power(weekdays)
 
 // What is the sum of power of two for ['Monday', 'Thursday'd] ?
-p2s.getValue(['Monday', 'Thursday']) // 9 (can be saved to a db)
+p.getValue(['Monday', 'Thursday']) // 9 (can be saved to a db)
 
 // Retrive days from number saved in db:
-p2s.get(9) // ['Monday', 'Thursday']
+p.get(9) // ['Monday', 'Thursday']
 ```
 
 ## What's cool about it?
