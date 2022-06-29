@@ -1,5 +1,5 @@
 {
-  "name": "power2save",
+  "name": "@theregge/power2save",
   "version": "1.0.0",
   "description": "Save simple data as sums of powers of two",
   "main": "power2save.js",
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "powers-of-2",
+    "save",
     "data"
   ],
   "author": "Regis Zaleman",
