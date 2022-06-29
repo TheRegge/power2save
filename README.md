@@ -14,7 +14,7 @@ It works because if you associate a power of 2 to each of the elements of your a
 ## Warnings
 
 - **Only use this with very small arrays of elements to save, otherwise the powers of two will get very big and might not fit your database requirements.**
-- **For most situation, it is NOT a good idea to use powers of 2 to save your data. It is only for very contrived situations. I created this mostly for fun and for using bitwise operators that I have started learning!**
+- **For most situations, it is NOT a good idea to use powers of 2 to save your data. It is only for very contrived situations. I created this mostly for fun and for using bitwise operators that I have started learning!**
 
 ## Quick start
 
