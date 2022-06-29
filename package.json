@@ -1,0 +1,25 @@
+{
+  "name": "power2save",
+  "version": "1.0.0",
+  "description": "Save simple data as sums of powers of two",
+  "main": "power2save.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRegge/power2save.git"
+  },
+  "keywords": [
+    "powers",
+    "of",
+    "2",
+    "data"
+  ],
+  "author": "@TheRegge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheRegge/power2save/issues"
+  },
+  "homepage": "https://github.com/TheRegge/power2save#readme"
+}
