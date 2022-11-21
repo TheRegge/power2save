@@ -1,6 +1,7 @@
 {
   "name": "power2save",
   "version": "2.0.0",
+  "description": "Save small amounts of data in array indexed with powers of 2",
   "type": "module",
   "main": "./dist/power2save.umd.cjs",
   "module": "./dist/power2save.js",
