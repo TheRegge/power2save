@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "vite",
     "prepublishOnly": "npm test",
-    "version": "npm run format && git add -A src",
+    "version": "git add -A src",
     "postversion": "git push && git push --tags",
     "prepare": "npm run build",
     "build": "tsc && vite build",
