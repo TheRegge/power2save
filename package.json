@@ -1,5 +1,5 @@
 {
-  "name": "power2save",
+  "name": "@theregge/power2save",
   "version": "2.0.1",
   "description": "Save small amounts of data in array indexed with powers of 2",
   "type": "module",
