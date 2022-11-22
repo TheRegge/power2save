@@ -15,6 +15,21 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRegge/power2save.git"
+  },
+  "keywords": [
+    "powers-of-2",
+    "save",
+    "data"
+  ],
+  "author": "Regis Zaleman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheRegge/power2save/issues"
+  },
+  "homepage": "https://github.com/TheRegge/power2save#readme",
   "scripts": {
     "dev": "vite",
     "prepublishOnly": "npm test",
