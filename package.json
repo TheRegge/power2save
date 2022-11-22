@@ -1,6 +1,7 @@
 {
-  "name": "power2save",
-  "version": "2.0.0",
+  "name": "@theregge/power2save",
+  "version": "2.0.1",
+  "description": "Save small amounts of data in array indexed with powers of 2",
   "type": "module",
   "main": "./dist/power2save.umd.cjs",
   "module": "./dist/power2save.js",
@@ -17,7 +18,7 @@
   "scripts": {
     "dev": "vite",
     "prepublishOnly": "npm test",
-    "version": "npm run format && git add -A src",
+    "version": "git add -A src",
     "postversion": "git push && git push --tags",
     "prepare": "npm run build",
     "build": "tsc && vite build",
